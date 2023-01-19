@@ -217,7 +217,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1 &1359358692
+--- !u!1 &1797098372
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -225,38 +225,62 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1359358694}
-  - component: {fileID: 1359358693}
+  - component: {fileID: 1797098374}
+  - component: {fileID: 1797098373}
   m_Layer: 0
-  m_Name: FirstPersonFlyer
+  m_Name: AsteroidField
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1359358693
+--- !u!114 &1797098373
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1359358692}
+  m_GameObject: {fileID: 1797098372}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce377314f02ad1c45adc6a4bce4418e9, type: 3}
+  m_Script: {fileID: 11500000, guid: 012aef1adeedab647803d098822d9496, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
-  mouseSensitivity: 2
---- !u!4 &1359358694
+  passCountDelineator: '|'
+  enablePrefabLink: 0
+  placementCoroutineIsRunning: 0
+  totalObjects: 0
+  valueForProgressBar: 0
+  objectPrefabs: []
+  keepPrefabLink: 0
+  placementAttempts: 360
+  rotateDegresPerAttempt: 1
+  randomScale: 1
+  scaleMinSize: 5
+  scaleMaxSize: 15
+  adjustMassByScale: 0
+  massScaleFactor: 0.7
+  randomRotation: 1
+  fieldSize: 1000
+  fieldType: 2
+  ringWidth: 500
+  ringThickness: 100
+  targetWidth: 150
+  targetWidthPositionOffset: 0
+  showFieldGizmo: 1
+  showBufferGizmo: 1
+  enableMeshes: 1
+  enableColliders: 1
+  showLogging: 0
+--- !u!4 &1797098374
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1359358692}
+  m_GameObject: {fileID: 1797098372}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -243.60086, y: -0.30035293, z: 56.14716}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
