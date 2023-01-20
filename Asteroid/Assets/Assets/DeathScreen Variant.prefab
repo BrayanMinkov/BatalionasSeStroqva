@@ -7,9 +7,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 365935818238181481, guid: 6b6c50f8eb6b5804488276060ef7d327, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3.306261
+      objectReference: {fileID: 0}
+    - target: {fileID: 365935818238181481, guid: 6b6c50f8eb6b5804488276060ef7d327, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.7801834
+      objectReference: {fileID: 0}
+    - target: {fileID: 365935819461574253, guid: 6b6c50f8eb6b5804488276060ef7d327, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3.3684793
+      objectReference: {fileID: 0}
+    - target: {fileID: 365935819461574253, guid: 6b6c50f8eb6b5804488276060ef7d327, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.7583504
+      objectReference: {fileID: 0}
     - target: {fileID: 6398852162593157226, guid: 6b6c50f8eb6b5804488276060ef7d327, type: 3}
       propertyPath: m_Name
-      value: DeathScreen
+      value: DeathScreen Variant
       objectReference: {fileID: 0}
     - target: {fileID: 8640243689741420472, guid: 6b6c50f8eb6b5804488276060ef7d327, type: 3}
       propertyPath: m_RootOrder
