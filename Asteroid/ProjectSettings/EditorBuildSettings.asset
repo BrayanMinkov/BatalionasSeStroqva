@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Grisho's scene.unity
+    guid: 1ddc3c2c41e2ab74a921181f444d2b00
+  - enabled: 1
+    path: Assets/Scenes/DeathScreen.unity
+    guid: 2f060874b925c994399b3c50d0de813e
   m_configObjects: {}
